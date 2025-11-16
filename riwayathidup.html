@@ -205,6 +205,8 @@ function goTo(url) {
         alert("❌ File belum tersedia untuk personel ini.");
         return;
     }
+    window.location.href = url; // ⬅ pindah HALAMAN, bukan TAB baru
+}
  
 
 // ======== LOAD DATABASE DARI GOOGLE SHEET ========
